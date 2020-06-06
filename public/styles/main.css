@@ -1,0 +1,43 @@
+/*Criando uma variavel para facilitar o uso e troca das cores*/
+:root { 
+    --title-color: #322153;
+    --primary-color: #34cb79;
+    --hover-color: #2fb86e;
+    --back-color: #f0f0f5;
+}
+
+/*Altera todos os elementos*/
+* { 
+    margin: 0; /*Zera a margem padrão*/
+    padding: 0; /*Zera o espaçamento interno padrão*/
+    box-sizing: border-box; /*Altera de content-box para border-box, 
+    ou seja, ele para de medir do lado de dentro da caixa para medir
+    pelo lado de fora que faz muito mais sentido*/
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: var(--back-color);
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+/*  BOX MODEL
+
+Modulo de caixa
+Toda caixa tem
+largura, altura, espaçamentos, preenchimentos
+bordas, cor, fundo, maneira que é vista pelo html (dysplay)
+posicionamento, alinhamentos
+*/

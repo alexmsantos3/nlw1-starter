@@ -1,0 +1,90 @@
+@media (max-width: 900px) {
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header {
+        margin-top: 28px; /*48px para 28 para ajustar melhor*/
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 28px; /*48px para 28 para ajustar melhor*/
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    /* -------###-------- */
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    #page-search-results .cards img {
+        width: 360px;
+        height: 220px;
+
+    }
+
+    #page-search-results .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-search-results main {
+        margin-bottom: 28px; /*48px para 28 para ajustar melhor*/
+    }
+
+    #page-search-results header {
+        margin-top: 28px; /*48px para 28 para ajustar melhor*/
+    }
+}
+    
+@media (max-width: 800px) {
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    #page-create-point form legend {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #page-create-point .items-grid {
+        grid-template-columns: 1fr 1fr; /*colocar quantas colunas haverá. "fr" fraciona as partes*/
+        gap: 24px; /*Cria o espaçamento entre as bordas*/
+    }
+
+    #page-create-point form button {
+        width: 100%; /*%%%%%%%%% FALTA SUBSTITUIR POR CENTRALIZAÇÃO %%%%%%%%%*/
+    }
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 100px;
+    }
+}

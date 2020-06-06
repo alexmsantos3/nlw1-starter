@@ -1,0 +1,27 @@
+//Sites Starter
+https://www.notion.so/Front-end-7c8a1a9a6df547058f1473f899a3b9c4
+https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)?node-id=136%3A546
+https://unsplash.com/
+https://www.flaticon.com/
+
+//Sites Booster
+https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-(Booster)?node-id=0%3A1
+
+//Biblioteca para o NodeJs
+npm install express 
+
+//DEV Atualizar automaticamente a página web sempre que eu salvar um arquivo dela
+npm install nodemon -DEV
+
+//Para usar template engine(precisa do back-end para rodar[NodeJs])
+npm install nunjucks
+
+//Full NVP - Envolve Front-end e Back-end na mesma aplicação
+
+//Banco de dados integrado na aplicação(dentro do node_modules) ele gera um arquivo
+npm install sqlite3
+
+//Função dentro de objeto recebe o nome de metodo
+
+//selecionar colunas
+Ctrl + Shift + Alt e, em seguida, usando as teclas de seta

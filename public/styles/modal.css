@@ -1,0 +1,91 @@
+#modal {
+    background-color: #0e0a14ef;/* #000000ef*/
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 400ms;
+}
+
+#modal.hide { /*Se tiver a classe "hide" no "modal" ele aplica o estilo*/
+    display: none;
+}
+
+#modal .content {
+    color: white;
+    width: 420px;
+}
+
+#modal .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+#modal .header a {
+    background-image: url("../assets/x.svg");
+    width: 20px;
+    height: 20px;
+    display: flex;
+    font-size: 0.01px; /*Estamos deixando a palavra fechar 
+    invisivel, mas ela está lá para leitores de pagina(acessibilidade)*/
+}
+
+#modal .header h1 {
+    color: white;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#modal form label {
+    font-size: 14px;
+    line-height: 16px;
+    display: block; /*Transforma cada elemento em bloco
+    que ocupa a linha toda, assim podemos usar o margin-bottom*/
+    margin-bottom: 8px;
+}
+
+#modal form .field {
+    display: flex;
+}
+
+#modal form input {
+    flex: 1;
+    background-color: var(--back-color);
+    border-radius: 8px 0 0 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6c6c80;
+}
+
+#modal form button {
+    width: 72px;
+    height: 72px;
+    background-color: var(--primary-color);
+    border-radius: 0 8px 8px 0;
+    border: 0;
+    transition: 400ms;
+}
+
+#modal form button:hover {
+    background-color: var(--hover-color);
+}
+
+
+/* Para o modal da point-created e point-not-created */
+#modal.point .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal.point .content h1 {
+    margin-top: 16px;
+    color: white;
+    text-align: center;
+}
